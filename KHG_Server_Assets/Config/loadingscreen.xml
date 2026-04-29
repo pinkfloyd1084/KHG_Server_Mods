@@ -1,7 +1,13 @@
 <configs>
     <remove xpath="/loadingscreen/backgrounds/background" />
-
+    
     <append xpath="/loadingscreen/backgrounds">
         <background image="@modfolder:KHG_Server_Assets/Textures/KHG_Background.png" />
+    </append>
+
+    <remove xpath="/loadingscreen/tips/tip" />
+
+    <append xpath="/loadingscreen/tips">
+        <tip title_key="loadingTipKHG" />
     </append>
 </configs>
