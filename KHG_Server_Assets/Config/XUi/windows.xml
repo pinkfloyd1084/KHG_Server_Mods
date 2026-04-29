@@ -1,7 +1,13 @@
 <configs>
-    <set xpath="/windows/window[@name='windowLoadingScreen']/rect[@name='background']/texture/@name">@modfolder:KHG_LoadingScreen/Textures/KHG_Background.png</set>
-    
-    <set xpath="/windows/window[@name='windowLoadingScreen']/rect[@name='logo']/texture/@color">0,0,0,0</set>
+	<remove xpath="/windows/window[@name='windowLoadingScreen']/rect[@name='background']" />
+	
+	<insertAfter xpath="/windows/window[@name='windowLoadingScreen']/rect[@name='backgroundDarkener']">
+		<rect name="backgroundKHG" depth="1" pos="0,0">
+			<texture name="bgKHG" texture="@modfolder:KHG_Server_Assets/Textures/KHG_Background.png" />
+		</rect>
+	</insertAfter>
 
-    <set xpath="/windows/window[@name='windowLoadingScreen']/@sound_open">khg_loading_music</set>
+	<set xpath="/windows/window[@name='windowLoadingScreen']/rect[@name='logo']/@visible">false</set>
+
+	<set xpath="/windows/window[@name='windowLoadingScreen']/@sound_open">khg_loading_music</set>
 </configs>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-    <ModInfo>
-        <Name value="KHG_Server_Assets"/>
-        <Description value="Official UI and Media Assets for KHG | Radio Anarchy"/>
-        <Author value="pinkfloyd1084"/>
-        <Version value="1.0.0"/>
-    </ModInfo>
+    <Name value="KHG_Server_Assets" />
+    <DisplayName value="KHG | Radio Anarchy Assets" />
+    <Version value="1.0.0" />
+    <Description value="Official Loading Screen, UI, and Music for KHG Server." />
+    <Author value="pinkfloyd1084" />
+    <Website value="radioanarchy.gg" />
 </xml>
