@@ -6,7 +6,7 @@
         <Description>Official Loading Screen and Custom UI for the KoldHardGaming Public Server.</Description>
         <Version>1.0.0</Version>
         <Downloads>
-          <Download>https://github.com/pinkfloyd1084/KHG_Server_Mods/tree/main</Download>
+          <Download>https://github.com/pinkfloyd1084/KHG_Server_Mods</Download>
         </Downloads>
         <InstallGroup>KHG_Mods</InstallGroup>
       </ModPack>
