@@ -3,9 +3,11 @@
   <ServerGroup Name="KoldHardGaming">
     <Provides>
       <ModPack Name="KoldHardGaming Official Assets">
-        <Description>Official Loading Screen and Custom UI for the KHG Public Server.</Description>
+        <Description>Official Loading Screen and Custom UI for the KoldHardGaming Public Server.</Description>
         <Version>1.0.0</Version>
-        <URL>https://github.com/pinkfloyd1084/KHG_Server_Mods/archive/refs/heads/main.zip</URL>
+        <Downloads>
+          <Download>https://github.com/pinkfloyd1084/KHG_Server_Mods/tree/main</Download>
+        </Downloads>
         <InstallGroup>KHG_Mods</InstallGroup>
       </ModPack>
     </Provides>
